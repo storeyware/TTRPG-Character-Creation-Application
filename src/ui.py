@@ -329,11 +329,9 @@ class MainWindowUI:
                 self.selected_skills.append(gl.get_skills()[skill_index])
                 for skill in self.selected_skills:
                     self.change_description_text(self.tooltip, gl.get_skill_description(skill))
-                    print(" ", skill)
             else:
                 selected_skills.remove(gl.get_skills()[skill_index])
                 for skill in self.selected_skills:
-                    print(" ", skill)
 
         skills = []
         for index, skill in enumerate(gl.get_skills()):
