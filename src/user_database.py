@@ -24,12 +24,9 @@ def create_connection(db_file=DB_PATH):
     # Determine the directory of the executable or script
     base_dir = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
     db_path = os.path.join(base_dir, db_file)
-    print(f"Attempting to connect to the database at {db_path}")
     try:
-        print(f"Connecting to db at {db_path}...")
         return sqlite3.connect(db_path)
     except sqlite3.Error as e:
-        print(f"Error connecting to database: {e}")
         print(e)
         return None
 
