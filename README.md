@@ -106,15 +106,10 @@ Credits
 ------------------
 - Nathan Storey - Author, Artist, Developer
 - UI Libraries - tkinter, customtkinter
-- Programming Language - Pyton
+- Programming Language - Python
 - Platform - Visual Studio Code
 
 Capstone Project - Davenport University
 CSCI
 ------------------
-Support
-------------------
-
-Nathan Storey - Developer
-email: rruciogames@gmail.com
 
