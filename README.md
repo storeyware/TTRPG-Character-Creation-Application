@@ -104,10 +104,10 @@ Future updates will include additional improvements to UI, accessibilty, securit
 ------------------
 Credits
 ------------------
-Nathan Storey - Author, Artist, Developer
-UI Libraries - tkinter, customtkinter
-Programming Language - Pyton
-Platform - Visual Studio Code
+- Nathan Storey - Author, Artist, Developer
+- UI Libraries - tkinter, customtkinter
+- Programming Language - Pyton
+- Platform - Visual Studio Code
 
 Capstone Project - Davenport University
 CSCI
